@@ -1,0 +1,22 @@
+{
+  "name": "testsls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^7.0.0"
+  },
+  "dependencies": {
+    "aws-lambda-fastify": "^1.7.1",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.19.2",
+    "fastify-cors": "^6.0.2",
+    "mongoose": "^5.13.3"
+  }
+}
